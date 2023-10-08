@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cocktail"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.FirstLetterActivityZ"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityY"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityX"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityW"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityV"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityU"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityT"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityS"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityR"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityQ"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityP"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityO"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityN"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityM"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityL"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityK"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityJ"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityI"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityH"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityG"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityF"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityE"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityD"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityC"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivityB"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstLetterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
